@@ -1,7 +1,8 @@
-import Projects from './components/Projects';
+import Projects from './components/projects/Projects';
 import Banner from './components/banner/Banner';
 import Navbar from './components/navbar/Navbar';
 import { Features } from './components/features/Features';
+import Resume from './components/resume/Resume';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Banner />
         <Features />
         <Projects />
+        <Resume />
       </div>
     </div>
   );
