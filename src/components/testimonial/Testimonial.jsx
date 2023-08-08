@@ -96,14 +96,14 @@ const Testimonial = () => {
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex flex-col lgl:flex-col justify-between">
+              <div className="lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center p-8 rounded-lg">
                 <img
-                  className="h-72 rounded-lg object-cover"
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt=""
                 />
-                <div>
+                <div className='w-full flex flex-col justify-end'>
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
@@ -113,12 +113,12 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-center">
-                <img className="w-[20%]" src={quote} alt="" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+              <div className="lgl:w-[60%] w-full h-full flex flex-col justify-center">
+                <img className="w-20 lgl:w-32" src={quote} alt="" />
+                <div className="w-full h-[70%] py-4 lgl:py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Travel Mobile App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
@@ -143,14 +143,14 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex flex-col lgl:flex-col justify-between">
+              <div className="lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center p-8 rounded-lg">
                 <img
-                  className="h-72 rounded-lg object-cover"
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialTwo}
                   alt=""
                 />
-                <div>
+                <div className='w-full flex flex-col justify-end'>
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
@@ -160,12 +160,12 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-center">
-                <img className="w-[20%]" src={quote} alt="" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+              <div className="lgl:w-[60%] w-full h-full flex flex-col justify-center">
+                <img className="w-20 lgl:w-32" src={quote} alt="" />
+                <div className="w-full h-[70%] py-4 lgl:py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Travel Mobile App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
@@ -190,14 +190,14 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex flex-col lgl:flex-col justify-between">
+              <div className="lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center p-8 rounded-lg">
                 <img
-                  className="h-72 rounded-lg object-cover"
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt=""
                 />
-                <div>
+                <div className='w-full flex flex-col justify-end'>
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
@@ -207,12 +207,12 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-center">
-                <img className="w-[20%]" src={quote} alt="" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+              <div className="lgl:w-[60%] w-full h-full flex flex-col justify-center">
+                <img className="w-20 lgl:w-32" src={quote} alt="" />
+                <div className="w-full h-[70%] py-4 lgl:py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Travel Mobile App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
