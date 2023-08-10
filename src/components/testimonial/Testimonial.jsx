@@ -96,14 +96,14 @@ const Testimonial = () => {
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
           <div className="w-full">
-            <div className="w-full h-auto flex flex-col lgl:flex-col justify-between">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center p-8 rounded-lg">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt=""
                 />
-                <div className='w-full flex flex-col justify-end'>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
@@ -150,7 +150,7 @@ const Testimonial = () => {
                   src={testimonialTwo}
                   alt=""
                 />
-                <div className='w-full flex flex-col justify-end'>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
@@ -197,7 +197,7 @@ const Testimonial = () => {
                   src={testimonialOne}
                   alt=""
                 />
-                <div className='w-full flex flex-col justify-end'>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Qazi - Ahmad
                   </p>
