@@ -13,9 +13,9 @@ const Contact = () => {
         <Title title="CONTACT" des="Contact with Me" />
       </div>
       <div className="w-full">
-        <div className="w-full flex justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
-          <ContactRight/>
+          <ContactRight />
         </div>
       </div>
     </section>
