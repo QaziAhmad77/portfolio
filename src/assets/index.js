@@ -7,6 +7,11 @@ import testimonialOne from './images/testmonial/testimonialOne.png';
 import testimonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
 import contactImg from './images/contact/contactImg.png';
+import doctor from './images/projects/doctor.jpg';
+import cart from './images/projects/cart.png';
+import movie from './images/projects/movie.jpg';
+import realEstate from './images/projects/realEstate.webp';
+import todo from './images/projects/todo.jpg';
 
 export {
   logo,
@@ -18,4 +23,9 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  doctor,
+  cart,
+  movie,
+  realEstate,
+  todo,
 };
