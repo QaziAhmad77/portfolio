@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import Title from '../layouts/Title';
-import Achievement from './Achievement';
-import Education from './Education';
 import Experience from './Experience';
+import Education from './Education';
 import Skills from './Skills';
+
 const Resume = () => {
   const [educationData, setEduationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
-  const [experienceData, setExperienceData] = useState(false);
-  const [achievementData, setAchievementData] = useState(false);
+  const [experienceData, setAchievementData] = useState(false);
   return (
     <section
       id="resume"
@@ -18,12 +17,11 @@ const Resume = () => {
         <Title title="1 YEAR OF EXPERIENCE" des="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <li
             onClick={() =>
               setEduationData(true) &
               setSkillData(false) &
-              setExperienceData(false) &
               setAchievementData(false)
             }
             className={`${
@@ -38,7 +36,6 @@ const Resume = () => {
             onClick={() =>
               setEduationData(false) &
               setSkillData(true) &
-              setExperienceData(false) &
               setAchievementData(false)
             }
             className={`${
@@ -51,8 +48,7 @@ const Resume = () => {
             onClick={() =>
               setEduationData(false) &
               setSkillData(false) &
-              setExperienceData(true) &
-              setAchievementData(false)
+              setAchievementData(true)
             }
             className={`${
               experienceData
@@ -62,27 +58,11 @@ const Resume = () => {
           >
             Experience
           </li>
-          <li
-            onClick={() =>
-              setEduationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(true)
-            }
-            className={`${
-              achievementData
-                ? 'border-designColor rounded-lg'
-                : 'border-transparent'
-            } resumeLi`}
-          >
-            Achievements
-          </li>
         </ul>
       </div>
       {educationData && <Education />}
       {skillData && <Skills />}
       {experienceData && <Experience />}
-      {achievementData && <Achievement />}
     </section>
   );
 };

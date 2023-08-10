@@ -1,5 +1,7 @@
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { logo } from '../../assets';
+import { BsGithub } from 'react-icons/bs';
+import { LuInstagram } from 'react-icons/lu';
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
@@ -7,13 +9,19 @@ const Footer = () => {
         <img className="w32" src={logo} alt="" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href=" https://www.linkedin.com/in/qazi-ahmad-b4124b203">
+              <FaLinkedinIn />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href="https://github.com/QaziAhmad77">
+              <BsGithub />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://www.instagram.com/ahmad302420/">
+              <LuInstagram />
+            </a>
           </span>
         </div>
       </div>

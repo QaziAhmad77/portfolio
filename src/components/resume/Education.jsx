@@ -10,56 +10,39 @@ const Education = () => {
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       {/* Part one */}
-      <div>
+      <div className="w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor trackin-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            {' '}
+            <h2 className="text-3xl md:text-4xl  font-bold">EDUCATION</h2>
+          </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="University of UVI (2005 - 2010)"
-            subTitle="Kingstart Secondary School (1998 - 2000)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectores of the economy or areas of culture."
+            title="Matric"
+            subTitle="Iqra Huffaz Secondary School Warsak Road Peshawar (2007 - 2018)"
+            result="900/1100"
+            des="My academic journey took root at Huffaz Secondary School on Warsak Road in Peshawar, where I spent formative years from 2007 to 2018. This institution provided more than just education"
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an acadic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstart Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Intermediate (Pre-Engineering)"
+            subTitle="Government College Peshawar (2018 - 2020)"
+            result="895/1100"
+            des="From 2018 to 2020, I embarked on a transformative academic phase at Government College Peshawar. Beyond the pursuit of knowledge, this institution became a crucible for my personal and intellectual growth."
           />
         </div>
       </div>
       {/* Part two */}
-      <div>
+      <div className="w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor trackin-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl  font-bold">Job Experience</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold">EDUCATION</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="University of UVI (2005 - 2010)"
-            subTitle="Kingstart Secondary School (1998 - 2000)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectores of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an acadic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstart Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Bachelor (BSc)"
+            subTitle="University Of Engineering And Technology Peshawar (2020 - 2024)"
+            result="3.19/4"
+            des="My ongoing pursuit of knowledge at the University of Engineering and Technology (UET) Peshawar began in 2020 and has already encompassed six enriching semesters. As I stand on the cusp of completing my Bachelor's degree in the coming two semesters, this journey symbolizes my commitment to academic excellence and growth. "
           />
         </div>
       </div>
