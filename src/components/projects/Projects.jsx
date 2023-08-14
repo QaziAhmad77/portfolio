@@ -34,7 +34,7 @@ const Projects = () => {
           des="The 'Movie App' is a captivating and feature-rich web application that caters to movie enthusiasts by providing them with a user-friendly platform. With a powerful technology stack that includes React.js with Redux, SASS, HTML, and integration with an external API for fetching movie data, "
           src={movie}
           link="https://github.com/QaziAhmad77/RTK-movies-site"
-          url="https://rtk-movies-site.vercel.app/"
+          url="https://movie-site-jade.vercel.app/"
         />
         <ProjectCard
           title="Real Estate Website"
