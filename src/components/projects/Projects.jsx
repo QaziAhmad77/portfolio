@@ -20,7 +20,7 @@ const Projects = () => {
           des="The Doctor Appointment System is built using the MERN technology stack,The app is a sophisticated and user-friendly application designed to streamline and enhance the process of scheduling medical appointments. "
           src={doctor}
           link="https://github.com/QaziAhmad77/Doctor-Appointment-system"
-          url="https://rtk-ecommerce-ten.vercel.app/"
+          url="https://github.com/QaziAhmad77/Portfolio"
         />
         <ProjectCard
           title="Shopping Cart"
