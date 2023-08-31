@@ -35,6 +35,7 @@ const Projects = () => {
           src={doctor}
           link="https://github.com/QaziAhmad77/Doctor-Appointment-system"
           url="https://github.com/QaziAhmad77/Portfolio"
+          isLive={true}
         />
         <ProjectCard
           title="Shopping Cart"
