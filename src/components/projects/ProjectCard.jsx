@@ -22,7 +22,10 @@ const ProjectCard = ({ title, des, src, link, url, isPrivate }) => {
               {isPrivate ? (
                 <span
                   className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 duration-300 cursor-not-allowed"
-                  data-tip="This project is private" // Tooltip text
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="This project is private! see live"
+                  data-tooltip-variant="light"
+                  data-tooltip-offset={10}
                 >
                   <BsGithub />
                 </span>
@@ -33,7 +36,11 @@ const ProjectCard = ({ title, des, src, link, url, isPrivate }) => {
                   </span>
                 </a>
               )}
-              <Tooltip effect="solid" />
+              <Tooltip
+                effect="solid"
+                id="my-tooltip"
+                style={{ padding: '6px' }}
+              />
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <FaGlobe />
