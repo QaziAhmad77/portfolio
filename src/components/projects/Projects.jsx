@@ -1,6 +1,6 @@
 import Title from '../layouts/Title';
 import ProjectCard from './ProjectCard';
-import { doctor, cart, movie, realEstate, todo } from '../../assets';
+import { doctor, cart, movie, realEstate, todo, passgeni } from '../../assets';
 
 const Projects = () => {
   return (
@@ -16,6 +16,20 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectCard
+          title="Passgeni"
+          des="Passgeni is a powerful password generator that creates secure and random passwords. It's built using the MERN technology stack and is designed to help you generate strong passwords for your accounts and services."
+          src={passgeni}
+          url="https://passgeni.online/"
+          isPrivate={true}
+        />
+        <ProjectCard
+          title="Movie App"
+          des="The 'Movie App' is a captivating and feature-rich web application that caters to movie enthusiasts by providing them with a user-friendly platform. With a powerful technology stack that includes React.js with Redux, SASS, HTML, and integration with an external API for fetching movie data, "
+          src={movie}
+          link="https://github.com/QaziAhmad77/RTK-movies-site"
+          url="https://movie-site-jade.vercel.app/"
+        />
+        <ProjectCard
           title="Doctor Appointment System"
           des="The Doctor Appointment System is built using the MERN technology stack,The app is a sophisticated and user-friendly application designed to streamline and enhance the process of scheduling medical appointments. "
           src={doctor}
@@ -28,13 +42,6 @@ const Projects = () => {
           src={cart}
           link="https://github.com/QaziAhmad77/redux-cart"
           url="https://rtk-ecommerce-ten.vercel.app/"
-        />
-        <ProjectCard
-          title="Movie App"
-          des="The 'Movie App' is a captivating and feature-rich web application that caters to movie enthusiasts by providing them with a user-friendly platform. With a powerful technology stack that includes React.js with Redux, SASS, HTML, and integration with an external API for fetching movie data, "
-          src={movie}
-          link="https://github.com/QaziAhmad77/RTK-movies-site"
-          url="https://movie-site-jade.vercel.app/"
         />
         <ProjectCard
           title="Real Estate Website"

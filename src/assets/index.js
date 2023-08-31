@@ -12,6 +12,7 @@ import cart from './images/projects/cart.png';
 import movie from './images/projects/movie.jpg';
 import realEstate from './images/projects/realEstate.webp';
 import todo from './images/projects/todo.jpg';
+import passgeni from './images/projects/passgeni.webp';
 
 export {
   logo,
@@ -28,4 +29,5 @@ export {
   movie,
   realEstate,
   todo,
+  passgeni
 };
