@@ -3,13 +3,21 @@ import Title from '../layouts/Title';
 import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Resume = () => {
   const [educationData, setEduationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
   const [experienceData, setAchievementData] = useState(false);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
       id="resume"
       className='className="w-full py-20 border-b-[1px] border-b-black'
     >

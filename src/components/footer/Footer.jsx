@@ -2,9 +2,20 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { logo } from '../../assets';
 import { BsGithub } from 'react-icons/bs';
 import { LuInstagram } from 'react-icons/lu';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8"
+    >
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w32" src={logo} alt="" />
         <div className="flex gap-4">
@@ -32,7 +43,7 @@ const Footer = () => {
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
             <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
-              About{' '}
+              About
               <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>

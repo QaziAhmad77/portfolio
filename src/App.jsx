@@ -9,6 +9,7 @@ import Footer from './components/footer/footer';
 import FooterBottom from './components/footer/FooterBottom';
 
 const App = () => {
+  
   return (
     <div className="w-full bg-bodyColor h-auto text-lightText p-4">
       <Navbar />
