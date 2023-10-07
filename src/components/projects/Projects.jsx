@@ -1,6 +1,6 @@
 import Title from '../layouts/Title';
 import ProjectCard from './ProjectCard';
-import { doctor, cart, movie, realEstate, todo, passgeni } from '../../assets';
+import { doctor, cart, movie, realEstate, todo, passgeni, amazon } from '../../assets';
 
 const Projects = () => {
   return (
@@ -25,7 +25,7 @@ const Projects = () => {
         <ProjectCard
           title="Amazon Website Clone"
           des="Introducing my remarkable 'Amazon Website Clone' – a captivating and feature-rich online shopping destination that offers a seamless and delightful shopping experience. This cutting-edge web application is designed for discerning shoppers who seek convenience and a vast selection of products. Powered by advanced technologies such as React.js, Firebase, Tailwind CSS , Material UI, Framer Motion, HTML, and integrated with an external API for fetching product data"
-          src={movie}
+          src={amazon}
           link="https://github.com/QaziAhmad77/amazone_clone"
           url="https://qaziahmad-amazon-clone.netlify.app/"
         />

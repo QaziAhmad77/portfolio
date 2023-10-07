@@ -13,6 +13,7 @@ import movie from './images/projects/movie.jpg';
 import realEstate from './images/projects/realEstate.webp';
 import todo from './images/projects/todo.jpg';
 import passgeni from './images/projects/passgeni.webp';
+import amazon from './images/projects/amazon.jfif';
 
 export {
   logo,
@@ -29,5 +30,6 @@ export {
   movie,
   realEstate,
   todo,
-  passgeni
+  passgeni,
+  amazon,
 };
