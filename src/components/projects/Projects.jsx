@@ -23,6 +23,13 @@ const Projects = () => {
           isPrivate={true}
         />
         <ProjectCard
+          title="Amazon Website Clone"
+          des="Introducing my remarkable 'Amazon Website Clone' – a captivating and feature-rich online shopping destination that offers a seamless and delightful shopping experience. This cutting-edge web application is designed for discerning shoppers who seek convenience and a vast selection of products. Powered by advanced technologies such as React.js, Firebase, Tailwind CSS , Material UI, Framer Motion, HTML, and integrated with an external API for fetching product data"
+          src={movie}
+          link="https://github.com/QaziAhmad77/amazone_clone"
+          url="https://qaziahmad-amazon-clone.netlify.app/"
+        />
+        <ProjectCard
           title="Movie App"
           des="The 'Movie App' is a captivating and feature-rich web application that caters to movie enthusiasts by providing them with a user-friendly platform. With a powerful technology stack that includes React.js with Redux, SASS, HTML, and integration with an external API for fetching movie data, "
           src={movie}
