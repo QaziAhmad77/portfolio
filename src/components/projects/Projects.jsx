@@ -39,7 +39,7 @@ const Projects = () => {
           des='Explore a dynamic "Cars Dashboard" built with React.js and Recharts, offering an interactive data visualization experience. '
           src={dashboard}
           link="https://github.com/QaziAhmad77/react-cars-dashboard"
-          url="https://react-cars-dashboard.vercel.app/dashboard"
+          url="https://lucky-pie-0ccd10.netlify.app/dashboard"
         />
         <ProjectCard
           title="Halloween Website"
