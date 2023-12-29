@@ -1,6 +1,18 @@
 import Title from '../layouts/Title';
 import ProjectCard from './ProjectCard';
-import { doctor, cart, movie, realEstate, todo, passgeni, amazon } from '../../assets';
+import {
+  doctor,
+  cart,
+  movie,
+  realEstate,
+  todo,
+  passgeni,
+  amazon,
+  dashboard,
+  halloween,
+  restaurant,
+  photography,
+} from '../../assets';
 
 const Projects = () => {
   return (
@@ -23,18 +35,32 @@ const Projects = () => {
           isPrivate={true}
         />
         <ProjectCard
-          title="Amazon Website Clone"
-          des="Introducing my remarkable 'Amazon Website Clone' – a captivating and feature-rich online shopping destination that offers a seamless and delightful shopping experience. This cutting-edge web application is designed for discerning shoppers who seek convenience and a vast selection of products. Powered by advanced technologies such as React.js, Firebase, Tailwind CSS , Material UI, Framer Motion, HTML, and integrated with an external API for fetching product data"
-          src={amazon}
-          link="https://github.com/QaziAhmad77/amazone_clone"
-          url="https://qaziahmad-amazon-clone.netlify.app/"
+          title="React Cars dashboard"
+          des='Explore a dynamic "Cars Dashboard" built with React.js and Recharts, offering an interactive data visualization experience. '
+          src={dashboard}
+          link="https://github.com/QaziAhmad77/react-cars-dashboard"
+          url="https://react-cars-dashboard.vercel.app/dashboard"
         />
         <ProjectCard
-          title="Movie App"
-          des="The 'Movie App' is a captivating and feature-rich web application that caters to movie enthusiasts by providing them with a user-friendly platform. With a powerful technology stack that includes React.js with Redux, SASS, HTML, and integration with an external API for fetching movie data, "
-          src={movie}
-          link="https://github.com/QaziAhmad77/RTK-movies-site"
-          url="https://movie-site-jade.vercel.app/"
+          title="Halloween Website"
+          des='Discover the "Halloweeb Website," a captivating online platform that blends the essence of Halloween with anime culture. Powered by HTML, CSS and JavaScript this project delivers a visually engaging and festive user experience.'
+          src={halloween}
+          link="https://github.com/QaziAhmad77/Halloween"
+          url="https://halloween-virid.vercel.app/"
+        />
+        <ProjectCard
+          title="Restaurant Website"
+          des="Explore the Restaurant Website – a tastefully designed online platform that showcases culinary delights. Developed using React.js, Bootstrap, HTML, and CSS, this project delivers an immersive and visually appealing experience for users, bringing the restaurant's offerings to life."
+          src={restaurant}
+          link="https://github.com/QaziAhmad77/Restaurant--Website"
+          url="https://restaurant-website-gray-eight.vercel.app/"
+        />
+        <ProjectCard
+          title="Photographer Website"
+          des='Discover the "Photographer Website" – a captivating online portfolio showcasing the artistry of a photographer. Crafted with React.js, Bootstrap, HTML, and CSS, this project offers an immersive and visually stunning experience for visitors, highlighting the photographer’s creative work.'
+          src={photography}
+          link="https://github.com/QaziAhmad77/Photographer-Website"
+          url="https://photographer-website-phi.vercel.app/"
         />
         <ProjectCard
           title="Doctor Appointment System"

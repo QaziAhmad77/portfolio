@@ -3,6 +3,10 @@ import bannerImg from './images/bannerImg.png';
 import projectOne from './images/projects/projectOne.jpg';
 import projectTwo from './images/projects/projectTwo.jpg';
 import projectThree from './images/projects/projectThree.jpeg';
+import halloween from './images/projects/halloween.jpg';
+import restaurant from './images/projects/restaurant.jpg';
+import photography from './images/projects/photography.jpg';
+import dashboard from './images/projects/dashboard.jpg';
 import testimonialOne from './images/testmonial/testimonialOne.png';
 import testimonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
@@ -32,4 +36,8 @@ export {
   todo,
   passgeni,
   amazon,
+  dashboard,
+  halloween,
+  restaurant,
+  photography,
 };
