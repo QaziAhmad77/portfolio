@@ -29,13 +29,9 @@ const LeftBanner = () => {
           <Cursor cursorBlinking="true" cursorStyle="" cursorColor="#ff014f" />
         </h2>
         <p className="text-justify">
-          Hello, my name is Ahmad and I am a MERN stack developer. I specialize
-          in building full-stack web applications using MongoDB, Express.js,
-          React, and Node.js. With my expertise in these technologies, I am able
-          to design and develop dynamic web applications that are responsive,
-          scalable, and efficient. I am doing Computer Systems Engineering from
-          UET Peshawar and I am passionate about using technology to solve
-          real-world problems.|
+          Hello, I'm Ahmad, With over 1.5 years of professional experience, I currently thrive as a Full Stack Developer at Apptex Software Solutions.
+          My expertise spans across a versatile tech stack including React.js, Next.js, Tailwind CSS, Firebase, Node.js, MongoDB (with Mongoose), and MySQL (with Sequelize).
+          I excel in designing and developing dynamic, responsive, and scalable web solutions that effectively address real-world challenges.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -55,7 +51,7 @@ const LeftBanner = () => {
               </a>
             </span>
             <span className="bannerIcon">
-              <a href="https://www.instagram.com/ahmad302420/">
+              <a href="https://www.instagram.com/qazi_ahmad420/">
                 <LuInstagram />
               </a>
             </span>

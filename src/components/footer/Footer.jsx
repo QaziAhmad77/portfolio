@@ -1,5 +1,5 @@
 import { FaLinkedinIn } from 'react-icons/fa';
-import { logo } from '../../assets';
+import { bannerImg, logo } from '../../assets';
 import { BsGithub } from 'react-icons/bs';
 import { LuInstagram } from 'react-icons/lu';
 import AOS from 'aos';
@@ -17,7 +17,7 @@ const Footer = () => {
       className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8"
     >
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w32" src={logo} alt="" />
+        <img className="w-[400px] h-[300px] object-cover" src={bannerImg} alt="" />
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a href=" https://www.linkedin.com/in/qazi-ahmad-b4124b203">

@@ -42,6 +42,21 @@ const Projects = () => {
           url="https://react-cars-dashboard.vercel.app/dashboard"
         />
         <ProjectCard
+          title="Movie Site Using Next Js"
+          des="The 'Movie Site Using Next.js' is a modern web application designed for movie enthusiasts to explore and discover films. Built with Next.js and Tailwind CSS, this project offers a seamless and responsive user experience with a sleek and intuitive interface."
+          src={movie}
+          link="https://github.com/QaziAhmad77/movie-app-Next-Js-"
+          url="https://movie-app-next-js-theta.vercel.app/"
+        />
+        <ProjectCard
+          title="Doctor Appointment System"
+          des="The Doctor Appointment System is built using the MERN technology stack,The app is a sophisticated and user-friendly application designed to streamline and enhance the process of scheduling medical appointments. "
+          src={doctor}
+          link="https://github.com/QaziAhmad77/Doctor-Appointment-system"
+          url="https://github.com/QaziAhmad77/Portfolio"
+          isLive={true}
+        />
+        <ProjectCard
           title="Halloween Website"
           des='Discover the "Halloweeb Website," a captivating online platform that blends the essence of Halloween with anime culture. Powered by HTML, CSS and JavaScript this project delivers a visually engaging and festive user experience.'
           src={halloween}
@@ -62,28 +77,13 @@ const Projects = () => {
           link="https://github.com/QaziAhmad77/Photographer-Website"
           url="https://photographer-website-phi.vercel.app/"
         />
-        <ProjectCard
-          title="Doctor Appointment System"
-          des="The Doctor Appointment System is built using the MERN technology stack,The app is a sophisticated and user-friendly application designed to streamline and enhance the process of scheduling medical appointments. "
-          src={doctor}
-          link="https://github.com/QaziAhmad77/Doctor-Appointment-system"
-          url="https://github.com/QaziAhmad77/Portfolio"
-          isLive={true}
-        />
-        <ProjectCard
+        {/* <ProjectCard
           title="Shopping Cart"
           des='The "Shopping Cart" project is a user-friendly web application designed to provide a seamless and engaging online shopping experience. This application utilizes React.js, Bootstrap, HTML, and CSS to create an visually appealing platform for users '
           src={cart}
           link="https://github.com/QaziAhmad77/redux-cart"
           url="https://rtk-ecommerce-ten.vercel.app/"
-        />
-        <ProjectCard
-          title="Real Estate Website"
-          des="The 'Real Estate Website' is a visually appealing and user-centric web application designed to provide users with a seamless experience for exploring and discovering real estate properties. This project utilizes the Tailwind CSS framework and HTML to create a modern and responsive platform for users"
-          src={realEstate}
-          link="https://github.com/QaziAhmad77/tailwindCSS/tree/main/realEstateWebsite"
-          url="https://tailwind-css-snowy.vercel.app/"
-        />
+        /> */}
         <ProjectCard
           title="Advance ToDo App"
           des="The 'Advanced ToDo App' is a feature-rich and interactive web application that takes task management to the next level. Built with React, Redux, and React Persist, this app offers users a powerful tool to organize their tasks, ensuring a seamless experience even across different sessions."

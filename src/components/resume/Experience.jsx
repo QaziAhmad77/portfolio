@@ -20,8 +20,8 @@ const Experience = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="FRONTEND"
-            subTitle="Gaining Proficiency and Passion in Frontend Development"
-            des="While I may not possess formal industry experience, my journey in the realm of frontend development spans one enriching year. During this time, I have dedicated myself to honing my skills, building projects, and immersing myself in the intricacies of creating captivating user interfaces. My commitment to frontend craftsmanship is evident through the projects I have undertaken and the continuous growth I have achieved. I eagerly look forward to translating this passion into impactful contributions in the industry."
+            subTitle="Experienced in React.js, Nextt.js, Tailwind CSS, and other UI libraries"
+            des="With 1.5 years of dedicated experience in frontend development, I have cultivated a strong foundation in creating captivating user interfaces. My journey has been marked by hands-on work with React.js, Next.js, Tailwind CSS, Framer Motion, and various other UI libraries. This practical experience is complemented by my current role as a Full Stack Developer at Apptex Software Solutions, where I continue to refine my skills and contribute to innovative projects. My commitment to frontend craftsmanship and continuous growth is evident through the diverse projects I have undertaken, and I am eager to translate this passion into impactful contributions in the industry."
           />
         </div>
       </div>
@@ -33,8 +33,8 @@ const Experience = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BACKEND"
-            subTitle="Forging a Strong Foundation in Backend Development"
-            des="My journey into the realm of backend development began during my tenure at the University of Engineering and Technology (UET) Peshawar. As I approach the completion of my Bachelor's degree over the next two semesters, this voyage stands as a testament to my unwavering dedication to academic excellence and growth. With a focus on backend technologies, I am poised to channel my education and passion into meaningful contributions that drive innovation and efficiency."
+            subTitle="Experienced in Node.js, Firebase, MongoDB, and MySQL"
+            des="With 1.5 years of hands-on experience in backend development, I specialize in Node.js with frameworks like Express, and databases including Firebase Realtime Database, MongoDB with Mongoose, and MySQL with Sequelize. Currently leveraging Firebase for ongoing projects, I am dedicated to delivering robust backend solutions that enhance efficiency and drive innovation."
           />
         </div>
       </div>
