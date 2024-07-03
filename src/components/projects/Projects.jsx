@@ -3,7 +3,6 @@ import ProjectCard from './ProjectCard';
 import {
   doctor,
   movie,
-  todo,
   passgeni,
   dashboard,
   halloween,
