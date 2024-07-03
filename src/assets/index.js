@@ -7,6 +7,7 @@ import halloween from './images/projects/halloween.jpg';
 import restaurant from './images/projects/restaurant.jpg';
 import photography from './images/projects/photography.jpg';
 import dashboard from './images/projects/dashboard.jpg';
+import caregiver from './images/projects/caregiver.png';
 import testimonialOne from './images/testmonial/testimonialOne.png';
 import testimonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
@@ -20,6 +21,7 @@ import passgeni from './images/projects/passgeni.webp';
 import amazon from './images/projects/amazon.jfif';
 
 export {
+  caregiver,
   logo,
   bannerImg,
   projectOne,

@@ -2,16 +2,14 @@ import Title from '../layouts/Title';
 import ProjectCard from './ProjectCard';
 import {
   doctor,
-  cart,
   movie,
-  realEstate,
   todo,
   passgeni,
-  amazon,
   dashboard,
   halloween,
   restaurant,
   photography,
+  caregiver,
 } from '../../assets';
 
 const Projects = () => {
@@ -27,6 +25,13 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectCard
+          title="Local Care Giver"
+          des="Local Care Giver is a comprehensive platform designed to connect care seekers with qualified care providers. Whether you are looking for home care, medical assistance, or other caregiving services, this service simplifies the process of finding the right care professional. For care providers, it offers an accessible marketplace to discover and apply for caregiving jobs that match their skills and availability. With a user-friendly interface and robust search functionalities, Local Care Giver aims to make the process of finding and offering care as seamless and efficient as possible."
+          src={caregiver}
+          url="https://local-caregiver.web.app/"
+          isPrivate={true}
+        />
         <ProjectCard
           title="Passgeni"
           des="Passgeni is a powerful password generator that creates secure and random passwords. It's built using the MERN technology stack and is designed to help you generate strong passwords for your accounts and services."
@@ -84,13 +89,13 @@ const Projects = () => {
           link="https://github.com/QaziAhmad77/redux-cart"
           url="https://rtk-ecommerce-ten.vercel.app/"
         /> */}
-        <ProjectCard
+        {/* <ProjectCard
           title="Advance ToDo App"
           des="The 'Advanced ToDo App' is a feature-rich and interactive web application that takes task management to the next level. Built with React, Redux, and React Persist, this app offers users a powerful tool to organize their tasks, ensuring a seamless experience even across different sessions."
           src={todo}
           link="https://github.com/QaziAhmad77/toDoList"
           url="https://to-do-list-nine-woad.vercel.app/"
-        />
+        /> */}
       </div>
     </section>
   );
