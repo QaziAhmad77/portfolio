@@ -9,6 +9,7 @@ import {
   restaurant,
   photography,
   caregiver,
+  ecommerce,
 } from '../../assets';
 
 const Projects = () => {
@@ -30,6 +31,13 @@ const Projects = () => {
           src={caregiver}
           url="https://local-caregiver.web.app/"
           isPrivate={true}
+        />
+        <ProjectCard
+          title="Amazon Clone"
+          des='Dive into a feature-rich Amazon Clone eCommerce website, meticulously crafted with React.js. Experience seamless navigation, responsive design, and robust functionalities that mimic the original Amazon platform. Explore product listings, user authentication, cart management, and a secure checkout process, all integrated into a single dynamic application.'
+          src={ecommerce}
+          link="https://github.com/QaziAhmad77/amazone_clone"
+          url="https://amazone-clone-iota.vercel.app/"
         />
         <ProjectCard
           title="Passgeni"
@@ -74,13 +82,13 @@ const Projects = () => {
           link="https://github.com/QaziAhmad77/Restaurant--Website"
           url="https://restaurant-website-gray-eight.vercel.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="Photographer Website"
           des='Discover the "Photographer Website" – a captivating online portfolio showcasing the artistry of a photographer. Crafted with React.js, Bootstrap, HTML, and CSS, this project offers an immersive and visually stunning experience for visitors, highlighting the photographer’s creative work.'
           src={photography}
           link="https://github.com/QaziAhmad77/Photographer-Website"
           url="https://photographer-website-phi.vercel.app/"
-        />
+        /> */}
         {/* <ProjectCard
           title="Shopping Cart"
           des='The "Shopping Cart" project is a user-friendly web application designed to provide a seamless and engaging online shopping experience. This application utilizes React.js, Bootstrap, HTML, and CSS to create an visually appealing platform for users '
