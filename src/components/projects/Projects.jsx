@@ -7,7 +7,6 @@ import {
   dashboard,
   halloween,
   restaurant,
-  photography,
   caregiver,
   ecommerce,
 } from '../../assets';
@@ -29,7 +28,7 @@ const Projects = () => {
           title="Local Care Giver"
           des="Local Care Giver is a comprehensive platform designed to connect care seekers with qualified care providers. Whether you are looking for home care, medical assistance, or other caregiving services, this service simplifies the process of finding the right care professional. For care providers, it offers an accessible marketplace to discover and apply for caregiving jobs that match their skills and availability. With a user-friendly interface and robust search functionalities, Local Care Giver aims to make the process of finding and offering care as seamless and efficient as possible."
           src={caregiver}
-          url="https://localcaregiver.netlify.app/"
+          url="https://localcaregiver.net/"
           isPrivate={true}
         />
         <ProjectCard

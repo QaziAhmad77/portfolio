@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
@@ -29,7 +29,7 @@ const LeftBanner = () => {
           <Cursor cursorBlinking="true" cursorStyle="" cursorColor="#ff014f" />
         </h2>
         <p className="text-justify">
-          Hello, I'm Ahmad, With over 1.5 years of professional experience, I currently thrive as a Full Stack Developer at Apptex Software Solutions.
+          Hello, I'm Ahmad, With over 1 year and 8 months of professional experience, I currently thrive as a Full Stack Developer at Apptex Software Solutions.
           My expertise spans across a versatile tech stack including React.js, Next.js, Tailwind CSS, Firebase, Node.js, MongoDB (with Mongoose), and MySQL (with Sequelize).
           I excel in designing and developing dynamic, responsive, and scalable web solutions that effectively address real-world challenges.
         </p>
@@ -57,25 +57,6 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
-        {/* <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Best Skill On
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
-          </div>
-        </div> */}
       </div>
     </div>
   );
